@@ -15,10 +15,11 @@ limitations under the License.
 {
   "name": "UK (Nias)",
   "version": "0.1",
-  "manifest_version": 2,
-  "description": "UK Nias layout",
+  "manifest_version": 3,
+  "description": "UK English with Nias keyboard",
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
+    "type": "module"
   },
   "permissions": [
     "input"
@@ -27,8 +28,8 @@ limitations under the License.
     {
       "name": "UK (Nias)",
       "type": "ime",
-      "id": "uk_nias",
-      "description": "UK Nias layout",
+      "id": "nias_xkb_en_gb",
+      "description": "UK English with Nias keyboard",
       "language": "en-GB",
       "layouts": ["gb(nias)"]
     }

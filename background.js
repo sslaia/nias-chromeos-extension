@@ -13,6 +13,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
+
 var previousCharIsMagic = false;
 var contextID = -1;
 var lut = {"a": "ä", "A": "Ä", "o": "ö", "O":"Ö", "u":"ü", "U":"Ü", "w":"ŵ", "W":"Ŵ", "`": "`"};
